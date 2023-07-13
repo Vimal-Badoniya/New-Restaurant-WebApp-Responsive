@@ -1,0 +1,33 @@
+.button-div{
+    display: flex;
+    
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+.button{
+    background-color: brown;
+    color: wheat;
+    font-size: large;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.total {
+    padding: 0;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+    border: 2px solid black;
+    border-radius: 12px;
+
+}
+
+.list{
+    overflow-y: scroll;
+    min-height: 100px;
+    
+}
