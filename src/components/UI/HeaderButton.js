@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./HeaderButton.css";
-import { HiShoppingCart } from "react-icons/hi";
+// import { HiShoppingCart } from "react-icons/hi";
 import CartContext from "../../source/cart-context";
 
 
@@ -17,7 +17,7 @@ const HeaderButton = (props) => {
   return (
     <button className="cart-button" onClick={clickHandler} >
       <span>
-        <HiShoppingCart className="child-icon" />
+        {/* <HiShoppingCart className="child-icon" /> */}
       </span>
       <span className="child-text">Your Cart</span>
       <span className="counter">{ctx.quantity}</span>
