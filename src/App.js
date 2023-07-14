@@ -1,6 +1,5 @@
 import React, {  useState } from "react";
 import Header from "./components/UI/Header";
-import "./App.css";
 import Cart from "./components/Cart/Cart";
 import CartProvider from "./source/CartProvider";
 

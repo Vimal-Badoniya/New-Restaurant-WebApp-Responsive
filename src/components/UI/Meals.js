@@ -11,7 +11,7 @@ const Meals = () => {
       <li key={row.id} className="li-grid">
         <div className="left">
           <h3>{row.name}</h3>
-          <p>{row.description}</p>
+          <p className="para">{row.description}</p>
           <h3 className="price">₹{row.price}</h3>
         </div>
         <div className="right">

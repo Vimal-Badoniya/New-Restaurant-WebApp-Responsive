@@ -1,8 +1,7 @@
 .button-div{
     display: flex;
-    
     justify-content: flex-end;
-    margin: 20px;
+    margin: 1.25rem;
 }
 
 .button{
@@ -10,24 +9,24 @@
     color: wheat;
     font-size: large;
     border-radius: 8px;
-    margin: 10px;
+    margin: 0.75rem;
 }
 
 .total {
     padding: 0;
-    height: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+    height: 2.5rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center ;
     border: 2px solid black;
-    border-radius: 12px;
+    border-radius: 0.75rem;
 
 }
 
 .list{
     overflow-y: scroll;
-    min-height: 100px;
+    min-height: 6rem;
     
 }

@@ -6,8 +6,6 @@ import CartContext from "../../source/cart-context";
 
 const HeaderButton = (props) => {
   const ctx = useContext(CartContext)
-  //console.log(ctx.quantity)
-  
   const clickHandler = ()=>{
     props.onclick()
 

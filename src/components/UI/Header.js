@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import Meals from "./Meals";
 import "./Header.css";
-import image from "../../assets/1317087.jpg";
+import image from "../../assets/Untitled Design (1).png";
 import HeaderButton from "./HeaderButton";
 import Summary from "./Summary";
 const Header = (props) => {
@@ -13,10 +13,10 @@ const Header = (props) => {
       </header>
       <div className="photo-box">
         <img src={image} alt="Delicious Food!" className="photo"></img>
+        {/* <img src={image} alt="Delicious Food!" className="photo"></img>
         <img src={image} alt="Delicious Food!" className="photo"></img>
         <img src={image} alt="Delicious Food!" className="photo"></img>
-        <img src={image} alt="Delicious Food!" className="photo"></img>
-        <img src={image} alt="Delicious Food!" className="photo"></img>
+        <img src={image} alt="Delicious Food!" className="photo"></img> */}
         <Summary></Summary>
         <Meals></Meals>
       </div>
